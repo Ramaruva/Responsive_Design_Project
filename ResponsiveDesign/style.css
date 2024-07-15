@@ -236,7 +236,7 @@ body {
   font-weight: var(--fw-bold);
   font-size: var(--fs-button);
   line-height: 1;
-  color: var(--clr-neutral-10a);
+  color: var(--clr-neutral-100);
   background-color: var(--clr-accent-400);
    box-shadow: 0 1.125em 1em -1em var(--clr-accent-500);
 }
