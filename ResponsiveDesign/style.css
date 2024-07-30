@@ -130,6 +130,14 @@ body {
   color: var(--clr-primary-400);
 }
 
+p:not([class]){
+   opacity: 0.7;
+   max-width: 32ch;
+}
+
+p[data-width="wide"]{
+   max-width: 42ch;
+}
 /* button */
 
 .button {
@@ -178,9 +186,9 @@ body {
   font-size: var(--fs-nav);
 }
 
-.nav-list{
+.nav-list {
   display: flex;
-  gap: clamp(var(--size-400),5vw, var(--size-600));
+  gap: clamp(var(--size-400), 5vw, var(--size-600));
   font-weight: var(--fw-semi-bold);
 }
 
@@ -346,6 +354,10 @@ body {
   --padding: 1rem;
   width: min(var(--max-width), 100%- (var(--padding) * 2));
   margin-inline: auto;
+}
+
+:where(.flow :not(:first-child)) {
+  margin-top: var(--flow-spacer, 3em);
 }
 .even-columns {
   display: grid;
