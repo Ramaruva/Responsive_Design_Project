@@ -270,7 +270,7 @@ p[data-width="wide"] {
 
 .social-list{
    display: flex;
-   gap: var(--size-300);
+   gap: var(--size-200);
 }
 
 .social-icon{
