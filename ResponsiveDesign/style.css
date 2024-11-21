@@ -280,7 +280,7 @@ p[data-width="wide"] {
 }
 
 .social-list  a:is(:hover,:focus) .social-icon{
-   fill: var(--clr-accent-500);
+   fill: var(--clr-accent-400);
 }
 
 @media(min-width:50em){
