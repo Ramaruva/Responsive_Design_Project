@@ -285,7 +285,7 @@ p[data-width="wide"] {
 
 @media(min-width:50em){
    .social-icon{
-    width: var(--size-500);
+    width: var(--size-400);
    }
 }
 /* cta */
